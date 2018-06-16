@@ -76,3 +76,79 @@ h3{
 ion-header {
     background: #fff;
 }
+
+.ion-page > ion-content{
+    background:#289689;
+}
+.contact_us p, .contact_us a{
+    color:#fff !important;
+    text-decoration:none;
+    margin:0;
+    font-size: 14px !important;
+    line-height: 21px;
+}
+.contact_section{
+    width: 87%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    display: flex;
+}
+.icon_section {
+    width: 35%;
+    float: left;
+    background: #fff;
+    text-align: right;
+    padding: 10px 10px;
+}
+.icon_section img {
+    max-width: 100%;
+    border: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.contact_section .info_section{
+    background: #282e3a;
+    padding: 10px 15px;
+    width: 80%;
+    float: left;
+    margin-left: 5px;
+}
+.contact_section .address_section{
+    width: 28.9%;
+    height: 41px;
+}
+.width_100{
+    width:100% !important;
+}
+.head_section .title{
+    float: right;
+    width: 65%;
+    padding: 10px 10px;
+    text-align: left;
+    background: #282e3a;
+    color: #fff;
+   
+    z-index: 2;
+}
+.box_shadow{
+    position: absolute;
+    right: -5px;
+    bottom: 14px;
+    background: #6ec3bc;
+    width: 68%;
+    height: 45px;
+    z-index: -1;
+}
+.head_section{
+    text-align: right;
+    padding: 20px 0;
+    overflow: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+.head_section .toolbar-title-md{
+    padding: 0; 
+    color: #fff !important;
+}
