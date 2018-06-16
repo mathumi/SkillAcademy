@@ -7,13 +7,33 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding text-center
+<ion-content text-center
 >
-  <h3>Job Oriented</h3>
-
-  <p>
-    Skills Development Program
-  </p>
-
-  <button ion-button secondary>Consult Trainer Now</button>
+  <div class="banner">
+    <h1>Job Oriented</h1>
+    <p class="tagline">
+      Skills Development Program
+    </p>
+      <button ion-button class="home-button"><a href="tel:+918971788537">Consult Trainer Now</a></button>
+  </div>
+  <div class="home-content">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <p>About {{pages}}</p>            
+        </ion-col>
+        <ion-col>
+            <p>Training</p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col>
+              <p>Contact</p>
+          </ion-col>
+          <ion-col>
+              <p>Testimonial</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
 </ion-content>

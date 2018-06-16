@@ -1,3 +1,47 @@
-page-home {
-
+.banner{
+	background: #059689;
+	color: #fff;
+	padding: 40px 15px;
+	h1{
+		margin-top: 0;		
+		color: #fff;
+		font-size: 40px;
+		margin-bottom: 0px;
+		font-family: 'Century Gothic Bold';
+	}
+	.tagline{
+		margin-top: 0;
+		color: #fff !important;
+		font-size: 22px !important;
+		font-family: 'Century Gothic Bold' !important;
+	}
+	.home-button,.home-button:hover{
+		background: transparent;
+		color: #fff;
+		border: 1px solid #fff;
+		text-transform: none;
+		font-size: 12px;
+	}
+	a{
+		color: #fff;
+		text-decoration: none;
+	}
+} 
+.home-content{
+	background: #abdfed;
+	padding-top: 30px;
+	p{
+		font-family: 'Century Gothic Bold' !important;
+		background: #282e3a;
+		height: 130px;
+		width: 130px;
+		color: #fff !important;
+		text-transform: uppercase;
+		padding-top: 50px;
+		font-size: 18px !important;
+		border-radius: 50%;
+		text-align: center;
+		margin: 0 auto;
+	}
 }
+
