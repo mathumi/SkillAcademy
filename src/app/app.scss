@@ -15,14 +15,62 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+
+
 @font-face {
-   font-family: Century Gothic;
-   src: url(../assets/fonts/GOTHIC.ttf);
+    font-family: 'Century Gothic Italic';
+    src: url('.../assets/fonts/GOTHICI.eot'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/GOTHICI.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../assets/fonts/GOTHICI.woff2') format('woff2'), /* Modern Browsers */
+        url('../assets/fonts/GOTHICI.woff') format('woff'), /* Modern Browsers */
+        url('../assets/fonts/GOTHICI.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../assets/fonts/GOTHICI.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
 }
-body, body *{
-	font-family: Century Gothic;
+$font-family-base: "Century Gothic", sans-serif;
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../assets/fonts/GOTHIC.eot'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/GOTHIC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../assets/fonts/GOTHIC.woff2') format('woff2'), /* Modern Browsers */
+        url('../assets/fonts/GOTHIC.woff') format('woff'), /* Modern Browsers */
+        url('../assets/fonts/GOTHIC.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../assets/fonts/GOTHIC.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic Bold';
+    src: url('../assets/fonts/GOTHICB.eot'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/GOTHICB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../assets/fonts/GOTHICB.woff2') format('woff2'), /* Modern Browsers */
+        url('../assets/fonts/GOTHICB.woff') format('woff'), /* Modern Browsers */
+        url('../assets/fonts/GOTHICB.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../assets/fonts/GOTHICB.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+    
+
+body,div,p,span,li,a{
+    font-family: $font-family-base  !important;
+   
+   
+}
+p{
+    font-size:12px !important;
+}
+body,div,p,li{
+    color:#000 !important;
 }
 
 h3{
-	font-family: Century Gothic;
+	font-family: "Century Gothic Bold", sans-serif;
 }
+.toolbar-title-md{
+    font-size: 2.3rem;
+}
+
