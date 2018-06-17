@@ -15,6 +15,13 @@
 
 
 <ion-content padding>
+    <div class="about_banner">
+        <div class="head_section">
+            <ion-title>Trainings Offered</ion-title>
+            <p class="box_shadow"></p>
+          </div>
+      <img src="assets/imgs/banner_about.jpg" class="banner_img">
+    </div>
   <div class="trainings">
   <ion-list>
     <ion-item *ngFor="let d of diseases; let i=index" text-wrap (click)="toggleGroup(i)" [ngClass]="{active: isGroupShown(i)}">

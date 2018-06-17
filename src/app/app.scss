@@ -155,9 +155,13 @@ ion-header {
 .about_banner{
     position: relative;
     margin-top: 34px;
-    padding: 0 30px;
+    padding-left: 10px;
 }
-
+.scroll-content{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+}
 .about_banner{
     position: relative;
 }

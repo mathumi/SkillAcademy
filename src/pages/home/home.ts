@@ -4,6 +4,7 @@ import { Nav, Platform } from 'ionic-angular';
 import {ContactUsPage} from'../contact-us/contact-us';
 import {TrainingsPage} from'../trainings/trainings';
 import {TestimonialPage} from'../testimonial/testimonial';
+import {AboutUsPage} from'../about-us/about-us';
 
 @Component({
   selector: 'page-home',
@@ -25,6 +26,10 @@ export class HomePage {
   }
   pushTestimonial(){
     this.navCtrl.push(TestimonialPage);
+  }
+  pushAbout(){
+    this.navCtrl.push(AboutUsPage);
+    
   }
 
 }
