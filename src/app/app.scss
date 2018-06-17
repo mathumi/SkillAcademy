@@ -152,3 +152,32 @@ ion-header {
     padding: 0; 
     color: #fff !important;
 }
+.about_banner{
+    position: relative;
+    margin-top: 34px;
+    padding: 0 30px;
+}
+
+.about_banner{
+    position: relative;
+}
+.head_section{
+    padding: 60px 0 20px;
+    margin-bottom: 20px;
+}
+.banner_img {
+    position: absolute;
+    top: 0;
+    left: 30;
+    width: 50%;
+    z-index: -2;
+     max-width: 260px;
+}
+
+.about_text{
+    background: #fff;
+    padding: 20px 20px 30px;
+    width: 90%;
+    margin-top: 17%;
+    margin-bottom:50px;
+}
