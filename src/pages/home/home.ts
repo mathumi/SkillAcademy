@@ -1,7 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Nav, Platform } from 'ionic-angular';
-import { ListPage } from '../list/list';
 
 
 @Component({
@@ -10,9 +9,7 @@ import { ListPage } from '../list/list';
 })
 export class HomePage {
   @ViewChild(Nav) nav: Nav;
-  pages: Array<{title: string, component: any}> =[
-    { title: 'List', component: ListPage }
-];
+
 
   constructor(public navCtrl: NavController) {
   }
