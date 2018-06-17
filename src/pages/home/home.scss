@@ -1,7 +1,13 @@
+.homecontent{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
 .banner{
 	background: #059689;
 	color: #fff;
-	padding: 40px 15px;
+	padding: 40px 15px;	
 	h1{
 		margin-top: 0;		
 		color: #fff;
@@ -30,7 +36,9 @@
 .home-content{
 	background: #abdfed;
 	padding-top: 30px;
+	flex-grow: 1 !important;
 	p{
+		display: inline-block;
 		font-family: 'Century Gothic Bold' !important;
 		background: #282e3a;
 		height: 130px;
@@ -42,6 +50,9 @@
 		border-radius: 50%;
 		text-align: center;
 		margin: 0 auto;
+	}
+	p:hover{
+		cursor: pointer;
 	}
 }
 

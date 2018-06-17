@@ -9,6 +9,7 @@
 
 <ion-content text-center
 >
+<div class="homecontent">
   <div class="banner">
     <h1>Job Oriented</h1>
     <p class="tagline">
@@ -20,20 +21,21 @@
     <ion-grid>
       <ion-row>
         <ion-col>
-          <p>About {{pages}}</p>            
+          <p>About</p>            
         </ion-col>
         <ion-col>
-            <p>Training</p>
+            <p (click)="pushTraining()">Training</p>
         </ion-col>
       </ion-row>
       <ion-row>
           <ion-col>
-              <p>Contact</p>
+              <p (click)="pushContact()">Contact</p>
           </ion-col>
           <ion-col>
-              <p>Testimonial</p>
+              <p (click)="pushTestimonial()">Testimonial</p>
           </ion-col>
         </ion-row>
       </ion-grid>
     </div>
+  </div>
 </ion-content>
